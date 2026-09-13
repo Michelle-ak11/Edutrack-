@@ -1,0 +1,122 @@
+body{
+  background-color: rgb(14, 13, 13);
+}
+
+.icon{
+ font-size: large;
+
+}
+
+header{
+  display: flex;
+
+  justify-content: space-between;
+  color: white;
+  
+}
+.logo{
+  display:flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+ .nav-links{
+  list-style: none;
+  display: flex;
+  color: white;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: end; 
+
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+
+
+
+.welcome-page{
+
+border: 1px solid rgb(88, 83, 83);
+border-radius: 1rem;
+color: white;
+width: 80%;
+justify-self: center;
+padding: 20px;
+margin:30px;
+box-shadow: 0 5px 3px 3px;
+gap: 2rem;
+}
+
+button{
+padding: 1rem;
+border-radius: 1rem;
+font-size: medium;
+font-weight: 600;
+}
+.btn1,.btn2{
+  background-color: black;
+  color: white;
+}
+.btn{
+  gap: 9rem;
+}
+
+
+
+/* verification page */
+.Login{
+  color: white;
+}
+
+.cards{
+display: flex;
+gap: 2rem;
+margin-top: 2rem;
+
+}
+
+.card{
+
+  padding: 1rem;
+  box-shadow: 1px 0px 0px 0px;
+}
+
+.card .h4{
+  margin-left:auto;
+}
+
+
+/* Login page */
+.LoginPage{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:2rem;
+  margin:5rem;
+  padding:3rem;
+  
+
+
+}
+
+.box1{
+  color:white;
+
+}
+
+.box2{
+  color:black;
+background-color: white;
+padding: 2rem;
+border-radius: 1rem;
+
+}
+
+
+
+.show-student{
+  color:white
+}
